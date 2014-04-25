@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash" >
+
+    <TextView
+        android:id="@+id/text_som"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="25dp"
+        android:text="SOM 01" />
+
+    <TextView
+        android:id="@+id/text_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="95dp"
+        android:layout_y="56dp"
+        android:text="Aperte play para ouvir" />
+
+    <Button
+        android:id="@+id/button_start_play"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:layout_x="132dp"
+        android:layout_y="84dp"
+        android:background="@drawable/button_start_play" />
+
+    <TextView
+        android:id="@+id/text_emissao_som"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="145dp"
+        android:text="Indique qual lado do ouvido para ser emitido o som" />
+
+    <Button
+        android:id="@+id/button_finalise_test"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_x="84dp"
+        android:layout_y="386dp"
+        android:background="@drawable/button_finalize_test" />
+
+    <TextView
+        android:id="@+id/text_ouvido_esq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="325dp"
+        android:text="Ouvido Esquerdo" />
+
+    <Button
+        android:id="@+id/button_orelha_esquerda"
+        android:layout_width="48dp"
+        android:layout_height="43dp"
+        android:layout_x="64dp"
+        android:layout_y="273dp"
+        android:background="@drawable/button_orelha_esquerda" />
+
+    <TextView
+        android:id="@+id/text_ouvido_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="324dp"
+        android:text="Ouvido Direito" />
+
+    <Button
+        android:id="@+id/button_orelha_direita"
+        android:layout_width="48dp"
+        android:layout_height="43dp"
+        android:layout_x="211dp"
+        android:layout_y="272dp"
+        android:background="@drawable/button_orelha_direita" />
+
+</AbsoluteLayout>

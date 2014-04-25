@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_pane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <br.com.exemplo.component.CustomComponent
+        android:id="@+id/customComponent1"
+        android:layout_width="528px"
+        android:layout_height="667px"
+        android:layout_marginLeft="60px"
+        android:layout_marginRight="60px"
+        android:layout_marginTop="100px" />
+
+    <RelativeLayout
+        android:id="@+id/audiograma_decibel"
+        android:layout_width="50px"
+        android:layout_height="850px" >
+
+        <TextView
+            android:id="@+id/decibel"
+            android:layout_width="26px"
+            android:layout_height="30px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="135px"
+            android:text="0"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_1"
+            android:layout_width="26px"
+            android:layout_height="110px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="190px"
+            android:text="10"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_2"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="240px"
+            android:text="20"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_3"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="290px"
+            android:text="30"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_4"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="340px"
+            android:text="40"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_5"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="390px"
+            android:text="50"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_6"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="440px"
+            android:text="60"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_7"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="490px"
+            android:text="70"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_8"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="490px"
+            android:text="70"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_9"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="540px"
+            android:text="80"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_10"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="590px"
+            android:text="90"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_11"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="645px"
+            android:text="100"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_12"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="695px"
+            android:text="110"
+            android:textSize="16px" />
+
+        <TextView
+            android:id="@+id/decibel_13"
+            android:layout_width="26px"
+            android:layout_height="190px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="745px"
+            android:text="120"
+            android:textSize="16px" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="50px"
+            android:layout_height="850px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="26px"
+                android:layout_height="30px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="135px"
+                android:text="0"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="26px"
+                android:layout_height="110px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="190px"
+                android:text="10"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="240px"
+                android:text="20"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="290px"
+                android:text="30"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="340px"
+                android:text="40"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="390px"
+                android:text="50"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="440px"
+                android:text="60"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="490px"
+                android:text="70"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="490px"
+                android:text="70"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="540px"
+                android:text="80"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="590px"
+                android:text="90"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="645px"
+                android:text="100"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="695px"
+                android:text="110"
+                android:textSize="16px" />
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="26px"
+                android:layout_height="190px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="745px"
+                android:text="120"
+                android:textSize="16px" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="50px"
+        android:layout_height="400px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/frequencia_2"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_alignBaseline="@+id/frequencia"
+        android:layout_alignBottom="@+id/frequencia"
+        android:layout_toRightOf="@+id/audiograma_decibel"
+        android:layout_weight="0.04"
+        android:text="125" />
+
+    <TextView
+        android:id="@+id/frequencia"
+        android:layout_width="40px"
+        android:layout_height="50px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28px"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@+id/frequencia_2"
+        android:layout_weight="0.04"
+        android:text="250" />
+
+    <TextView
+        android:id="@+id/frequencia_3"
+        android:layout_width="50px"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25px"
+        android:layout_marginTop="48dp"
+        android:layout_toLeftOf="@+id/relativeLayout1"
+        android:layout_weight="0.04"
+        android:text="500" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="50px"
+        android:layout_height="100px"
+        android:layout_alignBaseline="@+id/frequencia_3"
+        android:layout_alignBottom="@+id/frequencia_3"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_weight="0.04"
+        android:text="1000" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="50px"
+        android:layout_height="100px"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/relativeLayout1"
+        android:layout_weight="0.04"
+        android:text="2000" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="50px"
+        android:layout_height="100px"
+        android:layout_marginRight="60px"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignRight="@+id/customComponent1"
+        android:layout_weight="0.04"
+        android:text="4000" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="50px"
+        android:layout_height="100px"
+        android:layout_alignBaseline="@+id/TextView03"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:layout_weight="0.04"
+        android:text="8000" />
+
+</RelativeLayout>

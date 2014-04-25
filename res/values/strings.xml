@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Audio Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sound_cant_play">Não foi possível tocar o som.</string>
+    <string name="text_toast_save_songs">Salvando audiograma</string>
+    <string name="text_toast_alert_finish">Por favor, aperte play e em seguida nos botões de orelha</string>
+
+</resources>
